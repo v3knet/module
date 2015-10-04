@@ -1,0 +1,16 @@
+{
+  "name": "v3knet/module",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "atsilex\\module\\": "./"
+    }
+  },
+  "require": {
+    "php": ">=5.5",
+    "silex/silex": "2.0.x-dev"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^2.7.0"
+  }
+}
